@@ -6,5 +6,6 @@ from userData.models import userData
 class userSerializer(serializers.ModelSerializer):
     class Meta:
         model = userData
-        fields = ('firstName', 'lastName', 'Email', 'userName',
-                  'DOB', 'contactNumber', 'password')
+        fields = ('firstname', 'lastname', 'email', 'username', 'gender',
+                  'dob', 'contactno', 'password', 'security_question', 'security_answer')
+        print(fields[0])

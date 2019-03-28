@@ -4,13 +4,17 @@ from django.db import models
 
 
 class userData(models.Model):
-    firstName = models.CharField(max_length=20)
-    lastName = models.CharField(max_length=20)
-    Email = models.CharField(max_length=30)
-    userName = models.CharField(max_length=20)
-    DOB = models.DateField()
-    contactNumber = models.CharField(max_length=10)
-    password = models.CharField(max_length=20)
+    firstname = models.CharField(max_length=20, default='')
+    lastname = models.CharField(max_length=20, default='')
+    email = models.CharField(max_length=30, default='',
+                             unique=True, null=False)
+    username = models.CharField(max_length=20, default='', unique=True)
+    gender = models.CharField(max_length=6, default='')
+    dob = models.DateField()
+    contactno = models.CharField(max_length=10, default='')
+    password = models.CharField(max_length=20, default='')
+    security_question = models.CharField(default='', max_length=50)
+    security_answer = models.CharField(default='', max_length=20)
 
 
 def __str__(self):
