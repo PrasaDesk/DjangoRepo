@@ -2,7 +2,7 @@ from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView,
 
 from userData.models import userData
 
-from .serializer import userSerializer
+from .serializer import userSerializer, userSerializerLogin
 
 
 class RegisterUserListView(ListAPIView):

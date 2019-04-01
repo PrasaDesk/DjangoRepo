@@ -8,4 +8,9 @@ class userSerializer(serializers.ModelSerializer):
         model = userData
         fields = ('id', 'firstname', 'lastname', 'email', 'username', 'gender',
                   'dob', 'password', 'contactno', 'security_question', 'security_answer')
-        print(fields[0])
+
+
+class userSerializerLogin(serializers.ModelSerializer):
+    class Meta:
+        model = userData
+        fields = ('username', 'password')
