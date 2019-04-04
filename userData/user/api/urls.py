@@ -4,6 +4,6 @@ from .views import UserRecordView, UserCreateView
 
 urlpatterns = [
     path('', UserRecordView.as_view()),
-    # path("<pk>/", UserRecordRetriveView.as_view()),
+    # path("<pk>/", UserRetriveView.as_view()),
     path('register/', UserCreateView.as_view())
 ]

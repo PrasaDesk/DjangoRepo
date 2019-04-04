@@ -19,7 +19,7 @@
 #     queryset = User_data.objects.all()
 #     serializer_class = User_data
 
-from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
+from rest_framework.generics import ListAPIView, CreateAPIView
 from user.models import User_data
 from .serializer import UserSerializer, UserDataSerializer
 
