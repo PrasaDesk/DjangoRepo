@@ -1,11 +1,7 @@
 from rest_framework import serializers
 from user.models import User_data
 from django.contrib.auth.models import User
-from django.http import HttpResponse
-from django.contrib.auth.hashers import BCryptSHA256PasswordHasher, make_password
-from rest_framework_simplejwt.views import (TokenObtainPairView,
-                                            TokenRefreshView,
-                                            TokenVerifyView)
+from django.contrib.auth.hashers import make_password
 
 
 class UserSerializer(serializers.ModelSerializer):
