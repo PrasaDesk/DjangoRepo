@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4170e80-cd65-4c4e-aa77-30a697b74cf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CustomUserModel" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomUserModel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candishort-backend" beforeDir="false" afterPath="$PROJECT_DIR$/candishort-backend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candishort-backend/auth_ms/user/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/candishort-backend/auth_ms/user/api/serializer.py" afterDir="false" />
@@ -17,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -41,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="531">
               <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -50,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -169,6 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -233,16 +235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -263,17 +255,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/auth_ms/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candishort-backend/auth_ms/user/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
